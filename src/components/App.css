@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap");
+
+.addTask {
+  font-size: 3rem;
+  padding: 0 0 0.4rem 0;
+  border-radius: 0%;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  margin-top: 2rem;
+}
+
+.moveTask {
+  font-size: 1.5rem;
+  padding: 0.5rem 0.5rem;
+  margin-bottom: 0;
+  line-height: 1rem;
+}
+
+.delete {
+  background-color: pink;
+  border-color: pink;
+}
+
+h1 {
+  margin: 2rem 0;
+  font-weight: 400;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  width: 70rem;
+  margin-bottom: 2rem;
+}
+
+.Bold {
+  font-size: large;
+  font-weight: bold;
+}
+button {
+  margin: 10px;
+}
+
+@media only screen and (max-width: 75rem) {
+  section {
+    width: 100%;
+    flex-direction: column;
+  }
+}
